@@ -1,0 +1,9 @@
+<button (click)="loadPosts()">clik me to load posts</button>
+<div *ngFor="let post of posts">
+  <h1>
+    {{ post.honId }}
+  </h1>
+  <p>
+    {{ post.honNamae }}
+  </p>
+</div>
